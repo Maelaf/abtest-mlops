@@ -67,4 +67,4 @@ def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str,
     plt.title(title, size=20)
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
-    plt.show()git push
+    plt.show()
