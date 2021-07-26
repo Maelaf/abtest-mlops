@@ -25,10 +25,8 @@ logger = logging.getLogger(__name__)
 # Get url from DVC
 import dvc.api
 
-path = 'data/AdSmartABdata.csv'
-# repo ='https://github.com/heavye/abtest-mlops'
-repo ='C:/Users/euelf/Desktop/10_AC_CHALLENGES/Week_2/AB_Hypothesis_Testing/abtest-mlops'
-version = 'version4'
+path = 'data/data.csv'
+repo ='https://github.com/Maelaf/abtest-mlops'
 
 data_url = dvc.api.get_url(
     path = path,
