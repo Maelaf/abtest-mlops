@@ -33,7 +33,7 @@ def plot_bar(df: pd.DataFrame, x_col: str, y_col: str, title: str, xlabel: str, 
     plt.ylabel(ylabel, fontsize=16)
     plt.show()
 
-
+'''heat map plot function'''
 def plot_heatmap(df: pd.DataFrame, title: str, cbar=False) -> None:
     plt.figure(figsize=(12, 7))
     sns.heatmap(df, annot=True, cmap='viridis', vmin=0,
