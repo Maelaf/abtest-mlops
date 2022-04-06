@@ -59,10 +59,10 @@ def plot_box_multi(df: pd.DataFrame, x_col: str, y_col: str, title: str) -> None
     plt.show()
 
 
-# def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str, style: str) -> None:
-#     plt.figure(figsize=(10, 8))
-#     sns.scatterplot(data=df, x=x_col, y=y_col, hue=hue, style=style)
-#     plt.title(title, size=20)
-#     plt.xticks(fontsize=14)
-#     plt.yticks(fontsize=14)
+def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str, style: str) -> None:
+    plt.figure(figsize=(10, 8))
+    sns.scatterplot(data=df, x=x_col, y=y_col, hue=hue, style=style)
+    plt.title(title, size=20)
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
     plt.show()
