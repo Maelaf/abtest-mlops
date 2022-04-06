@@ -22,7 +22,7 @@ def plot_count(df: pd.DataFrame, column: str) -> None:
     plt.title(f'Plot count of {column}', size=20, fontweight='bold')
     plt.show()
 
-
+''' bar plot function'''
 def plot_bar(df: pd.DataFrame, x_col: str, y_col: str, title: str, xlabel: str, ylabel: str) -> None:
     plt.figure(figsize=(9, 7))
     sns.barplot(data=df, x=x_col, y=y_col)
