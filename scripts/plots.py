@@ -9,7 +9,7 @@ def plot_hist(df: pd.DataFrame, column: str, color: str) -> None:
     plt.title(f'Distribution of {column}', size=20, fontweight='bold')
     plt.show()
 
-
+'''distribution plot function'''
 def plot_dist(df: pd.DataFrame, column: str):
     plt.figure(figsize=(9, 7))
     sns.distplot(df).set_title(f'Distribution of {column}')
