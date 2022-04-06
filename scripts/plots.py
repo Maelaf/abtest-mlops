@@ -41,7 +41,7 @@ def plot_heatmap(df: pd.DataFrame, title: str, cbar=False) -> None:
     plt.title(title, size=18, fontweight='bold')
     plt.show()
 
-
+'''box plot function'''
 def plot_box(df: pd.DataFrame, x_col: str, title: str) -> None:
     plt.figure(figsize=(12, 7))
     sns.boxplot(data=df, x=x_col)
