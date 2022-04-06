@@ -58,7 +58,7 @@ def plot_box_multi(df: pd.DataFrame, x_col: str, y_col: str, title: str) -> None
     plt.yticks(fontsize=14)
     plt.show()
 
-
+'''scatter plot function'''
 def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str, style: str) -> None:
     plt.figure(figsize=(10, 8))
     sns.scatterplot(data=df, x=x_col, y=y_col, hue=hue, style=style)
